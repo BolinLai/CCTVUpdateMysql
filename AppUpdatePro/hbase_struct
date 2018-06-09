@@ -1,0 +1,49 @@
+appdata.info_201801
++------------+--------------+--------------+---------------------+------------+--------------------+--------------+----------------+-----------------+-----------------+-----------+---------+
+| TABLE_CAT  | TABLE_SCHEM  |  TABLE_NAME  |     COLUMN_NAME     | DATA_TYPE  |     TYPE_NAME      | COLUMN_SIZE  | BUFFER_LENGTH  | DECIMAL_DIGITS  | NUM_PREC_RADIX  | NULLABLE  | REMARKS |
++------------+--------------+--------------+---------------------+------------+--------------------+--------------+----------------+-----------------+-----------------+-----------+---------+
+|            | APPDATA      | INFO_201801  | ID                  | 12         | VARCHAR            | null         | null           | null            | null            | 0         |         |
+|            | APPDATA      | INFO_201801  | APP_KEY             | 12         | VARCHAR            | null         | null           | null            | null            | 1         |         |
+|            | APPDATA      | INFO_201801  | DEVICE_ID           | 12         | VARCHAR            | null         | null           | null            | null            | 1         |         |
+|            | APPDATA      | INFO_201801  | APP_VERSION_NAME    | 12         | VARCHAR            | null         | null           | null            | null            | 1         |         |
+|            | APPDATA      | INFO_201801  | CHANNEL             | 12         | VARCHAR            | null         | null           | null            | null            | 1         |         |
+|            | APPDATA      | INFO_201801  | SESSION_ID          | 12         | VARCHAR            | null         | null           | null            | null            | 1         |         |
+|            | APPDATA      | INFO_201801  | SESSION_START_TIME  | -5         | UNSIGNED_LONG      | null         | null           | null            | null            | 1         |         |
+|            | APPDATA      | INFO_201801  | STARTTIME           | -5         | UNSIGNED_LONG      | null         | null           | null            | null            | 1         |         |
+|            | APPDATA      | INFO_201801  | WATCHTIME           | 5          | UNSIGNED_SMALLINT  | null         | null           | null            | null            | 1         |         |
+|            | APPDATA      | INFO_201801  | CONTENT_ID          | 12         | VARCHAR            | null         | null           | null            | null            | 1         |         |
+|            | APPDATA      | INFO_201801  | CONTENT_NAME        | 12         | VARCHAR            | null         | null           | null            | null            | 1         |         |
+|            | APPDATA      | INFO_201801  | PROVINCE            | -6         | UNSIGNED_TINYINT   | null         | null           | null            | null            | 1         |         |
+|            | APPDATA      | INFO_201801  | FLAG                | -6         | UNSIGNED_TINYINT   | null         | null           | null            | null            | 1         |         |
+|            | APPDATA      | INFO_201801  | ALLWATCHTIME        | 5          | UNSIGNED_SMALLINT  | null         | null           | null            | null            | 1         |         |
+|            | APPDATA      | INFO_201801  | CONTENT_TYPE        | 12         | VARCHAR            | null         | null           | null            | null            | 1         |         |
+|            | APPDATA      | INFO_201801  | Y                   | 5          | UNSIGNED_SMALLINT  | null         | null           | null            | null            | 1         |         |
+|            | APPDATA      | INFO_201801  | YM                  | 4          | UNSIGNED_INT       | null         | null           | null            | null            | 1         |         |
+|            | APPDATA      | INFO_201801  | YMD                 | 4          | UNSIGNED_INT       | null         | null           | null            | null            | 1         |         |
+|            | APPDATA      | INFO_201801  | YMDH                | 4          | UNSIGNED_INT       | null         | null           | null            | null            | 1         |         |
+|            | APPDATA      | INFO_201801  | TAGID               | 12         | VARCHAR            | null         | null           | null            | null            | 1         |         |
+|            | APPDATA      | INFO_201801  | TAGID2              | 12         | VARCHAR            | null         | null           | null            | null            | 1         |         |
++------------+--------------+--------------+---------------------+------------+--------------------+--------------+----------------+-----------------+-----------------+-----------+---------+
+
+
+
+areadata.areadata_201801
++------------+--------------+------------------+---------------+------------+--------------------+--------------+----------------+-----------------+-----------------+-----------+-----------+
+| TABLE_CAT  | TABLE_SCHEM  |    TABLE_NAME    |  COLUMN_NAME  | DATA_TYPE  |     TYPE_NAME      | COLUMN_SIZE  | BUFFER_LENGTH  | DECIMAL_DIGITS  | NUM_PREC_RADIX  | NULLABLE  | REMARKS   |
++------------+--------------+------------------+---------------+------------+--------------------+--------------+----------------+-----------------+-----------------+-----------+-----------+
+|            | AREADATA     | AREADATA_201801  | ID            | 12         | VARCHAR            | null         | null           | null            | null            | 0         |           |
+|            | AREADATA     | AREADATA_201801  | DEVICE_ID     | 12         | VARCHAR            | null         | null           | null            | null            | 1         |           |
+|            | AREADATA     | AREADATA_201801  | STARTTIME     | -5         | UNSIGNED_LONG      | null         | null           | null            | null            | 1         |           |
+|            | AREADATA     | AREADATA_201801  | WATCHTIME     | 5          | UNSIGNED_SMALLINT  | null         | null           | null            | null            | 1         |           |
+|            | AREADATA     | AREADATA_201801  | CONTENT_ID    | 12         | VARCHAR            | null         | null           | null            | null            | 1         |           |
+|            | AREADATA     | AREADATA_201801  | CONTENT_NAME  | 12         | VARCHAR            | null         | null           | null            | null            | 1         |           |
+|            | AREADATA     | AREADATA_201801  | PROVINCE      | 12         | VARCHAR            | null         | null           | null            | null            | 1         |           |
+|            | AREADATA     | AREADATA_201801  | FLAG          | -6         | UNSIGNED_TINYINT   | null         | null           | null            | null            | 1         |           |
+|            | AREADATA     | AREADATA_201801  | ALLWATCHTIME  | 5          | UNSIGNED_SMALLINT  | null         | null           | null            | null            | 1         |           |
+|            | AREADATA     | AREADATA_201801  | Y             | 5          | UNSIGNED_SMALLINT  | null         | null           | null            | null            | 1         |           |
+|            | AREADATA     | AREADATA_201801  | YM            | 4          | UNSIGNED_INT       | null         | null           | null            | null            | 1         |           |
+|            | AREADATA     | AREADATA_201801  | YMD           | 4          | UNSIGNED_INT       | null         | null           | null            | null            | 1         |           |
+|            | AREADATA     | AREADATA_201801  | YMDH          | 4          | UNSIGNED_INT       | null         | null           | null            | null            | 1         |           |
+|            | AREADATA     | AREADATA_201801  | DURATION      | 5          | UNSIGNED_SMALLINT  | null         | null           | null            | null            | 1         |           |
+|            | AREADATA     | AREADATA_201801  | TAGID         | 12         | VARCHAR            | null         | null           | null            | null            | 1         |           |
++------------+--------------+------------------+---------------+------------+--------------------+--------------+----------------+-----------------+-----------------+-----------+-----------+
