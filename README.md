@@ -1,2 +1,2 @@
 # CCTVUpdateMysql
-This is a big data porject of CCTV.
+This is a big data project of CCTV.
